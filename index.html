@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELIRANDO, Tienda Online </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <header id="menu">
+                    <a href="index.html">DELIRANDO</a>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">COLECCIONES</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a  id="todo" href="#items">Todo</a>
+                            <a  id="cat1" href="#tigre">Colección #1</a>
+                            <a  id="cat2" href="#mariposa">Colección #2</a>
+                            
+                        </div>
+                    </div>
+                    <a id="btnIconoCarrito" href="#" class="iconoCarrito">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="20.5" r="1"/><circle cx="18" cy="20.5" r="1"/><path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"/></svg>
+                    </a>
+                </header>
+            </div>
+        </div>
+
+        <main>
+            <section>
+                <!-- Productos -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>PRODUCTOS</h1>
+                    </div>
+                </div>
+                
+                <div id="items"></div>
+                
+                <!-- Carrito -->
+                <div class="sidebar">
+                    <h2 class="tituloCarrito">CARRITO</h2>
+                    <button class="cerrarCarrito">X</button>
+                    <div class="listaCarrito"></div>
+                    <p id="mostrarTotal" class="totalCarrito">TOTAL: <span></span></p>
+                    <button class="btnFinalizar" type="button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">FINALIZAR COMPRA</button>
+                </div>
+            </section>
+
+            <!-- Modal Botón Finalizar Compra -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">COMPRA FINALIZADA</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                             ¡Gracias por tu compra! Pronto llegará tu pedido.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" id="btnModal" data-bs-dismiss="modal">Volver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-------Footer----------------------------------------->
+        <footer id="footer">
+            <div class="row redes">
+                <div class="col-md-4"> <img src="../img/footer.png"> </div>
+                <div class="col-md-4">
+                    <h3>Redes</h3> <i class="fa fa-instagram fa-3x" aria-hidden="true"> </i> <a
+                        href="https://www.instagram.com/_cata1ina/" target="_blank">Instagram</a>
+                    <br> <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i> <a
+                        href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
+                </div>
+                <div class="col-md-4"> <img src="../img/footer.png"> </div>
+        </footer>
+    </div>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -28,26 +28,26 @@
     {
         "id": 4,
         "coleccion": "mariposa",
-        "nombre": "Parche",
-        "precio": 80,
-        "descripcion": "Parche estampado en tela de algodón con serigrafía",
+        "nombre": "Luna Azul",
+        "precio": 350,
+        "descripcion": "Remera upcyling estampada en Serigrafía. Talle L.",
         "imagen": "img/4.jpg"
     },
     {
         "id": 5,
         "coleccion": "mariposa",
-        "nombre": "Adhesivo Transparente",
-        "precio": 50,
-        "descripcion": "Adshesivo transparente estampado en serigrafía",
-        "imagen": "img/5.jpg"
+        "nombre": "Flor",
+        "precio": 350,
+        "descripcion": "Remera upcyling estampada en Serigrafía. Talle M.",
+        "imagen": "img/6.jpg"
     },
     {
         "id": 6,
         "coleccion": "mariposa",
-        "nombre": "Adhesivo Holográfico",
-        "precio": 50,
-        "descripcion": "Adshesivo holográfico / tornasol estampado en serigrafía",
-        "imagen": "img/6.jpg"
+        "nombre": "Luna Verde",
+        "precio": 350,
+        "descripcion": "Remera upcyling estampada en Serigrafía. Talle L.",
+        "imagen": "img/5.jpg"
     }
    
 ]
